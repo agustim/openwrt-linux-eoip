@@ -38,6 +38,7 @@ endef
 define Package/linux-eoip/description
 	MakeFile para gerar o pacote Linux-EoIP para o firmware openwrt;
 	Fork Brasileiro;
+	Integração de túneis EoIP Mikrotik e linux.
 	
 endef
 
