@@ -11,9 +11,12 @@ PKG_NAME:=linux-eoip
 PKG_VERSION:=0.5
 PKG_RELEASE:=1
 
+
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tgz
 PKG_SOURCE_URL:=http://linux-eoip.googlecode.com/files/
 PKG_MD5SUM:=b2a9746f9ae352f2c495422cb19900d8
+PKG_USE_MIPS16:=0
+
 
 PKG_INSTALL:=1
 
@@ -33,8 +36,9 @@ define Package/linux-eoip
 endef
 
 define Package/linux-eoip/description
-  linux-eoip can create ethernet tunnels compatible with Mikrotik EoIP tunnel.
-  At current moment it is easiest way to create stateless tunnel with Mikrotik.
+	MakeFile para gerar o pacote Linux-EoIP para o firmware openwrt;
+	Fork Brasileiro;
+	
 endef
 
 TARGET_CFLAGS += -std=gnu99
