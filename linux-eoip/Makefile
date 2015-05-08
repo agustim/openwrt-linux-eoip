@@ -36,10 +36,8 @@ define Package/linux-eoip
 endef
 
 define Package/linux-eoip/description
-	MakeFile para gerar o pacote Linux-EoIP para o firmware openwrt;
-	Fork Brasileiro;
-	Integração de túneis EoIP Mikrotik e linux.
-	
+  linux-eoip can create ethernet tunnels compatible with Mikrotik EoIP tunnel.
+  At current moment it is easiest way to create stateless tunnel with Mikrotik.
 endef
 
 TARGET_CFLAGS += -std=gnu99
