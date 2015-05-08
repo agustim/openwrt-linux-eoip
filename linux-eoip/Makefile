@@ -11,9 +11,12 @@ PKG_NAME:=linux-eoip
 PKG_VERSION:=0.5
 PKG_RELEASE:=1
 
+
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tgz
 PKG_SOURCE_URL:=http://linux-eoip.googlecode.com/files/
 PKG_MD5SUM:=b2a9746f9ae352f2c495422cb19900d8
+PKG_USE_MIPS16:=0
+
 
 PKG_INSTALL:=1
 
